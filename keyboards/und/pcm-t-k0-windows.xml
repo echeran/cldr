@@ -4,7 +4,7 @@
 <keyboard locale="pcm-t-k0-windows">
 	<version number="$Revision$" platform="10"/>
 	<names>
-		<name value="Naijíriá Píjin"/>
+		<!-- also known as Naijíriá Píjin -->
 		<name value="Nigerian Pidgin"/>
 	</names>
 	<settings fallback="omit" transformPartial="hide"/>
