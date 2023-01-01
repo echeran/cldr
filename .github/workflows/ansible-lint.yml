@@ -19,7 +19,7 @@ jobs:
         lfs: false # not needed for this job, as we don’t currently do a Java build
     - name: Lint Ansible Playbook
       # the hash here is a specific version of that repo
-      uses: ansible/ansible-lint-action@c37fb7b4bda2c8cb18f4942716bae9f11b0dc9bc
+      uses: ansible/ansible-lint-action@dd225474d15635904348151b9e694472ce0f62a8
       with:
         targets: tools/scripts/ansible/*-playbook.yml
         override-deps: |
